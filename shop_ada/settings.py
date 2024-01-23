@@ -175,15 +175,15 @@ TWILIO_SENDER_PHONE = '+17178976093'
 
 CSRF_TRUSTED_ORIGINS = ['https://2d95-213-109-66-242.ngrok-free.app']
 
-CACHES = {
-    "default": {
-        "BACKEND": "django.core.cache.backends.redis.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379",
-        'OPTIONS':{
-            'CLIENT_CLASS':'django_redis.client.DefaultClient',
-        }
-    }
-}
+# CACHES = {
+#     "default": {
+#         "BACKEND": "django.core.cache.backends.redis.RedisCache",
+#         "LOCATION": "redis://127.0.0.1:6379",
+#         'OPTIONS':{
+#             'CLIENT_CLASS':'django_redis.client.DefaultClient',
+#         }
+#     }
+# }
 
 REDIS_HOST = '127.0.0.1'
 REDIS_PORT = '6379'
